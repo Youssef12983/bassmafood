@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Bassma Food | Recipe Details</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <section class="recipe-hero">
+    <div class="recipe-hero-grid">
+      <div>
+        <span class="badge" id="recipeCategory">Category</span>
+        <h1 id="recipeTitle">Recipe Title</h1>
+        <p id="recipeDescription">Recipe description</p>
+
+        <div class="recipe-meta">
+          <div>Prep: <span id="recipePrep"></span></div>
+          <div>Cook: <span id="recipeCook"></span></div>
+          <div>Serves: <span id="recipeServings"></span></div>
+        </div>
+      </div>
+
+      <div class="recipe-image-wrap">
+        <img id="recipeImage" src="" alt="">
+      </div>
+    </div>
+  </section>
+
+  <section class="recipe-layout">
+    <aside class="ingredients-box">
+      <h2>Ingredients</h2>
+      <ul id="ingredientsList"></ul>
+    </aside>
+
+    <div class="steps-box">
+      <h2>Step by Step</h2>
+      <div id="stepsList"></div>
+    </div>
+  </section>
+
+  <script src="recipes-data.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
